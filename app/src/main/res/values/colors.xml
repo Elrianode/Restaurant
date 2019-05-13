@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#cd2027</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="transparentBackground">#E6cd2027</color>
+    <color name="opacityBackground">#B3cd2027</color>
+    <color name="colorBlack">#000</color>
+    <color name="bacground_TrangChu">#CCC</color>
+    <color name="transparentBackgroundDangnhap">#33000000</color>
+    <color name="danghoatDong">#0bbe2c</color>
+    <color name="tranparentWhite">#B3FFFFFF</color>
+    <color name="colorWhite">#FFF</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

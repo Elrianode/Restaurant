@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".View.DanDuongQuanAn_Activity" />
+        <View
+            android:id="@+id/khungtinhnang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tranparentWhite"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtTenDiachi_chitetQA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/txtGioihanGia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50.00 - 100.000"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bacground_TrangChu"
+        android:layout_marginTop="5dp"/>
+    <LinearLayout
+        android:id="@+id/khungtienich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    </LinearLayout>
+
+</LinearLayout>
